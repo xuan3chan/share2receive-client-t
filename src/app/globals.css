@@ -1,0 +1,44 @@
+@layer tw_base, mantine, tw_components, tw_utilities, mantine-datatable;
+
+/* import tailwind */
+@import 'tailwindcss/base' layer(tw_base);
+@import 'tailwindcss/components' layer(tw_components);
+@import 'tailwindcss/utilities' layer(tw_utilities);
+
+/* import mantine */
+@import '@mantine/core/styles.layer.css';
+
+.chat-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.chat-hover {
+  @apply hover:shadow-lg hover:brightness-105;
+}
+
+.minimize-animation {
+  animation: minimizeEffect 0.3s ease-in-out;
+}
+
+@keyframes minimizeEffect {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.3) translateY(100px);
+    opacity: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ant-descriptions-view {
+  border-radius: 0px !important;
+}

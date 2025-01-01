@@ -1,0 +1,117 @@
+.indicator {
+  width: 12px;
+  height: 12px;
+  background-color: var(--mantine-color-gray-6);
+  transition: width 250ms ease;
+
+  &[data-active] {
+    width: 40px;
+    background-color: var(--mantine-color-green-6);
+  }
+}
+
+.slide {
+  height: fit-content;
+  width: fit-content;
+}
+
+.slidecontent {
+  border-radius: 8px;
+  box-shadow: 2px 2px 9px #8cdbaa;
+}
+
+.indicators {
+  bottom: -20px;
+}
+
+.control {
+  display: none;
+}
+
+.choose-price_section {
+  background-image: url("/images/choose-price-bg.png");
+}
+
+.slidecard {
+  margin: 10px 1px;
+}
+
+.controlCard {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.price_content {
+  color: #179d49;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #ffeded;
+  border-radius: 50%;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 2px 2px 9px rgba(255, 83, 83, 0.25);
+  font-size: 0.875rem;
+  width: 120px;
+  height: 120px;
+}
+
+.price_content::before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: url(/images/start-icon-small.svg) no-repeat;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  -webkit-transform: translate(-49%, 85%);
+  -ms-transform: translate(-49%, 85%);
+  transform: translate(-49%, 85%);
+  background-size: contain;
+}
+
+.price_content::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(/images/star-icon-large.svg) no-repeat;
+  position: absolute;
+  top: 3%;
+  right: 0;
+  -webkit-transform: translate(15%);
+  -ms-transform: translate(15%);
+  transform: translate(15%);
+  background-size: contain;
+}
+
+.container {
+  height: inherit;
+}
+
+.viewport {
+  height: 100%;
+}
+
+.together_content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 55%;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 9px #8cdbaa;
+}
+
+
+.product_body {
+  padding: 0 !important;
+}

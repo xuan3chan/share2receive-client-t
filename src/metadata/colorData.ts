@@ -1,0 +1,92 @@
+export const colorData = [
+  {
+    id: 1,
+    name: 'Đỏ',
+    value: 'red',
+    color: '#FF0000',
+  },
+  {
+    id: 2,
+    name: 'Xanh lá',
+    value: 'green',
+    color: '#008000',
+  },
+  {
+    id: 3,
+    name: 'Xanh dương',
+    value: 'blue',
+    color: '#0000FF',
+  },
+  {
+    id: 4,
+    name: 'Vàng',
+    value: 'yellow',
+    color: '#FFFF00',
+  },
+  {
+    id: 5,
+    name: 'Cam',
+    value: 'orange',
+    color: '#FFA500',
+  },
+  {
+    id: 6,
+    name: 'Tím',
+    value: 'purple',
+    color: '#800080',
+  },
+  {
+    id: 7,
+    name: 'Hồng',
+    value: 'pink',
+    color: '#FFC0CB',
+  },
+  {
+    id: 8,
+    name: 'Nâu',
+    value: 'brown',
+    color: '#A52A2A',
+  },
+  {
+    id: 9,
+    name: 'Xám',
+    value: 'gray',
+    color: '#808080',
+  },
+  {
+    id: 10,
+    name: 'Trắng',
+    value: 'white',
+    color: '#FFFFFF',
+  },
+  {
+    id: 11,
+    name: 'Đen',
+    value: 'black',
+    color: '#000000',
+  },
+  {
+    id: 12,
+    name: 'Xanh da trời',
+    value: 'skyblue',
+    color: '#87CEEB',
+  },
+  {
+    id: 13,
+    name: 'Xanh lam',
+    value: 'indigo',
+    color: '#4B0082',
+  },
+  {
+    id: 15,
+    name: 'Xanh ngọc',
+    value: 'jade',
+    color: '#00A86B',
+  },
+  {
+    id: 18,
+    name: 'Xanh lơ',
+    value: 'cyan',
+    color: '#00FFFF',
+  },
+]
